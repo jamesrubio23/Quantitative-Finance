@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "sde-quant"
+version = "0.1.0"
+description = ""
+authors = ["jamesrubio23 <jamesrubiojames@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+numpy = "^2.2.6"
+matplotlib = "^3.10.3"
+ipykernel = "^6.29.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
